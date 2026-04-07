@@ -1,3 +1,1 @@
-(images/logo-footer.png, images/logo.jpg, images/logo.png are image files, so they should not be added to .gitignore according to rule 8)
-
-(empty)
+Nothing should be ignored in this case, as only a markdown file (ENHANCEMENT_PLAN.md) was added without any build artifacts, dependencies, or temporary files.
