@@ -1,1 +1,3 @@
-(images/patterns/data-flow-network.png)
+(images/logo-footer.png, images/logo.jpg, images/logo.png are image files, so they should not be added to .gitignore according to rule 8)
+
+(empty)
