@@ -203,20 +203,24 @@ a:hover {
 .logo {
     display: flex;
     align-items: center;
-    gap: var(--space-3);
     color: var(--color-primary-text);
     font-weight: 700;
     font-size: var(--text-xl);
 }
 
-.logo-icon {
-    width: 40px;
-    height: 40px;
-    color: var(--color-accent);
+.logo-image {
+    height: 48px;
+    width: auto;
+    display: block;
 }
 
-.logo:hover {
-    color: var(--color-accent);
+.logo-image-white {
+    filter: brightness(0) invert(1);
+}
+
+.logo:hover .logo-image {
+    opacity: 0.85;
+    transition: opacity var(--transition-base);
 }
 
 .main-nav {
@@ -1114,6 +1118,10 @@ body.lang-ar .resource-link:hover::after {
 .footer-brand .logo {
     color: var(--color-white);
     margin-bottom: var(--space-4);
+}
+
+.footer-brand .logo-image {
+    height: 40px;
 }
 
 .footer-tagline {
