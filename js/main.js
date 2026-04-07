@@ -1,5 +1,5 @@
 /**
- * Clinexa - Professional Healthcare Technology Website
+ * axionis - Professional Healthcare Technology Website
  * Main JavaScript File
  * 
  * Features:
@@ -52,7 +52,7 @@
             'solutions.cards.clinical.features.0': 'Electronic Health Records',
             'solutions.cards.clinical.features.1': 'Appointment Scheduling',
             'solutions.cards.clinical.features.2': 'Clinical Decision Support',
-            'solutions.cards.ai.title': 'Clinexa AI',
+            'solutions.cards.ai.title': 'axionis AI',
             'solutions.cards.ai.desc': 'Advanced artificial intelligence for predictive analytics, diagnosis support, and personalized treatment plans.',
             'solutions.cards.ai.features.0': 'Predictive Analytics',
             'solutions.cards.ai.features.1': 'Diagnosis Assistance',
@@ -70,7 +70,7 @@
             
             // About Section
             'about.title': 'Building Trust Through Precision',
-            'about.text1': 'Clinexa represents the convergence of cutting-edge technology and compassionate healthcare. Our identity is rooted in the belief that medical solutions should be as elegant as they are effective.',
+            'about.text1': 'axionis represents the convergence of cutting-edge technology and compassionate healthcare. Our identity is rooted in the belief that medical solutions should be as elegant as they are effective.',
             'about.text2': 'The abstract minimal geometric mark at our core symbolizes connection, continuity of care, and the seamless integration of technology into medicine. Every design decision reflects our commitment to logical, intelligent, and professional solutions.',
             'about.stats.countries': 'Countries',
             'about.stats.partners': 'Partners',
@@ -87,8 +87,8 @@
             'resources.cards.study1.desc': 'How a 500-bed hospital reduced administrative overhead by 40% while improving patient satisfaction scores.',
             'resources.cards.report1.title': 'The Future of AI in Clinical Decision Making',
             'resources.cards.report1.desc': 'Comprehensive analysis of AI adoption patterns and outcomes in modern healthcare facilities.',
-            'resources.cards.brochure.title': 'Clinexa Platform Overview',
-            'resources.cards.brochure.desc': 'Complete technical specifications and feature breakdown of the Clinexa healthcare ecosystem.',
+            'resources.cards.brochure.title': 'axionis Platform Overview',
+            'resources.cards.brochure.desc': 'Complete technical specifications and feature breakdown of the axionis healthcare ecosystem.',
             'resources.download': 'Download PDF',
             
             // Contact Section
@@ -120,7 +120,7 @@
             'footer.tagline': 'Connecting Technology & Medicine',
             'footer.links.solutions': 'Solutions',
             'footer.links.clinical': 'Clinical Management',
-            'footer.links.ai': 'Clinexa AI',
+            'footer.links.ai': 'axionis AI',
             'footer.links.data': 'Data Integration',
             'footer.links.telemedicine': 'Telemedicine',
             'footer.links.company': 'Company',
@@ -132,7 +132,7 @@
             'footer.links.privacy': 'Privacy Policy',
             'footer.links.terms': 'Terms of Service',
             'footer.links.cookies': 'Cookie Policy',
-            'footer.copyright': '© 2024 Clinexa. All rights reserved.'
+            'footer.copyright': '© 2024 axionis. All rights reserved.'
         },
         
         ar: {
@@ -169,7 +169,7 @@
             'solutions.cards.clinical.features.0': 'السجلات الصحية الإلكترونية',
             'solutions.cards.clinical.features.1': 'جدولة المواعيد',
             'solutions.cards.clinical.features.2': 'دعم القرار السريري',
-            'solutions.cards.ai.title': 'كلينيكسا الذكاء الاصطناعي',
+            'solutions.cards.ai.title': 'اكسيونيس الذكاء الاصطناعي',
             'solutions.cards.ai.desc': 'ذكاء اصطناعي متقدم للتحليلات التنبؤية ودعم التشخيص وخطط العلاج الشخصية.',
             'solutions.cards.ai.features.0': 'التحليلات التنبؤية',
             'solutions.cards.ai.features.1': 'مساعدة التشخيص',
@@ -187,7 +187,7 @@
             
             // About Section
             'about.title': 'بناء الثقة من خلال الدقة',
-            'about.text1': 'تمثل كلينيكسا التقاء التكنولوجيا المتطورة والرعاية الصحية الرحيمة. هويتنا متأصلة في الاعتقاد بأن الحلول الطبية يجب أن تكون أنيقة بقدر فعاليتها.',
+            'about.text1': 'تمثل اكسيونيس التقاء التكنولوجيا المتطورة والرعاية الصحية الرحيمة. هويتنا متأصلة في الاعتقاد بأن الحلول الطبية يجب أن تكون أنيقة بقدر فعاليتها.',
             'about.text2': 'العلامة الهندسية البسيطة المجردة في جوهرنا ترمز إلى التواصل واستمرارية الرعاية والتكامل السلس للتكنولوجيا في الطب. كل قرار تصميم يعكس التزامنا بالحلول المنطقية والذكية والمهنية.',
             'about.stats.countries': 'دولة',
             'about.stats.partners': 'شريك',
@@ -204,8 +204,8 @@
             'resources.cards.study1.desc': 'كيف قللت مستشفى مكونة من 500 سرير النفقات الإدارية بنسبة 40٪ مع تحسين درجات رضا المرضى.',
             'resources.cards.report1.title': 'مستقبل الذكاء الاصطناعي في اتخاذ القرارات السريرية',
             'resources.cards.report1.desc': 'تحليل شامل لأنماط اعتماد الذكاء الاصطناعي والنتائج في مرافق الرعاية الصحية الحديثة.',
-            'resources.cards.brochure.title': 'نظرة عامة على منصة كلينيكسا',
-            'resources.cards.brochure.desc': 'المواصفات التقنية الكاملة وتفصيل الميزات لنظام كلينيكسا البيئي للرعاية الصحية.',
+            'resources.cards.brochure.title': 'نظرة عامة على منصة اكسيونيس',
+            'resources.cards.brochure.desc': 'المواصفات التقنية الكاملة وتفصيل الميزات لنظام اكسيونيس البيئي للرعاية الصحية.',
             'resources.download': 'تنزيل PDF',
             
             // Contact Section
@@ -237,7 +237,7 @@
             'footer.tagline': 'نربط التكنولوجيا بالطب',
             'footer.links.solutions': 'الحلول',
             'footer.links.clinical': 'الإدارة السريرية',
-            'footer.links.ai': 'كلينيكسا الذكاء الاصطناعي',
+            'footer.links.ai': 'اكسيونيس الذكاء الاصطناعي',
             'footer.links.data': 'تكامل البيانات',
             'footer.links.telemedicine': 'الطب عن بعد',
             'footer.links.company': 'الشركة',
@@ -249,14 +249,14 @@
             'footer.links.privacy': 'سياسة الخصوصية',
             'footer.links.terms': 'شروط الخدمة',
             'footer.links.cookies': 'سياسة ملفات تعريف الارتباط',
-            'footer.copyright': '© 2024 كلينيكسا. جميع الحقوق محفوظة.'
+            'footer.copyright': '© 2024 اكسيونيس. جميع الحقوق محفوظة.'
         }
     };
 
     // =========================================================================
     // State Management
     // =========================================================================
-    let currentLang = localStorage.getItem('clinexa-lang') || 'en';
+    let currentLang = localStorage.getItem('axionis-lang') || 'en';
 
     // =========================================================================
     // DOM Elements
@@ -295,7 +295,7 @@
     // =========================================================================
     function applyLanguage(lang) {
         currentLang = lang;
-        localStorage.setItem('clinexa-lang', lang);
+        localStorage.setItem('axionis-lang', lang);
         
         // Update HTML attributes
         document.documentElement.lang = lang;
