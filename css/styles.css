@@ -209,13 +209,15 @@ a:hover {
 }
 
 .logo-image {
-    height: 48px;
+    height: 56px;
     width: auto;
+    max-width: 100%;
     display: block;
+    object-fit: contain;
 }
 
 .logo-image-white {
-    filter: brightness(0) invert(1);
+    filter: none;
 }
 
 .logo:hover .logo-image {
