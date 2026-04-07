@@ -455,18 +455,35 @@ body.lang-ar .nav-link::after {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.05;
     z-index: 0;
+    /* Use the downloaded pattern image with subtle opacity */
+    background-image: url('../images/patterns/data-flow-network.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.08;
+    animation: dataFlow 30s ease-in-out infinite alternate;
+}
+
+/* Fallback gradient if image fails to load */
+.data-flow-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: 
         radial-gradient(circle at 20% 30%, var(--color-accent) 0%, transparent 50%),
         radial-gradient(circle at 80% 70%, var(--color-accent) 0%, transparent 50%),
         radial-gradient(circle at 50% 50%, var(--color-accent) 0%, transparent 70%);
-    animation: dataFlow 20s ease-in-out infinite;
+    opacity: 0.3;
+    z-index: -1;
 }
 
 @keyframes dataFlow {
-    0%, 100% { transform: scale(1); opacity: 0.05; }
-    50% { transform: scale(1.1); opacity: 0.08; }
+    0% { transform: scale(1) translate(0, 0); opacity: 0.08; }
+    100% { transform: scale(1.05) translate(-10px, -10px); opacity: 0.12; }
 }
 
 .hero-container {
@@ -580,6 +597,31 @@ section {
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-base);
     text-align: center;
+    /* Subtle pattern overlay for depth */
+    background-image: url('../images/patterns/data-flow-network.png');
+    background-size: 200px 200px;
+    background-position: center;
+    opacity: 1;
+    position: relative;
+}
+
+/* Overlay to ensure readability */
+.philosophy-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-white);
+    opacity: 0.94;
+    border-radius: var(--radius-lg);
+    z-index: 0;
+}
+
+.philosophy-card > * {
+    position: relative;
+    z-index: 1;
 }
 
 .philosophy-card:hover {
@@ -632,6 +674,29 @@ section {
     padding: var(--space-8);
     transition: all var(--transition-base);
     position: relative;
+    /* Subtle pattern overlay for depth */
+    background-image: url('../images/patterns/data-flow-network.png');
+    background-size: 180px 180px;
+    background-position: center;
+}
+
+/* Overlay to ensure readability while showing subtle pattern */
+.solution-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-white);
+    opacity: 0.96;
+    border-radius: var(--radius-lg);
+    z-index: 0;
+}
+
+.solution-card > * {
+    position: relative;
+    z-index: 1;
 }
 
 .solution-card:hover {
@@ -642,6 +707,11 @@ section {
 .solution-card.featured {
     border-color: var(--color-accent);
     background-color: rgba(10, 132, 255, 0.02);
+}
+
+/* Enhanced featured card with pattern visibility */
+.solution-card.featured::before {
+    opacity: 0.92;
 }
 
 .featured-badge {
@@ -819,6 +889,30 @@ body.lang-ar .feature-list li::before {
     padding: var(--space-8);
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-base);
+    /* Subtle pattern overlay for depth */
+    background-image: url('../images/patterns/data-flow-network.png');
+    background-size: 160px 160px;
+    background-position: center;
+    position: relative;
+}
+
+/* Overlay to ensure readability while showing subtle pattern */
+.resource-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-white);
+    opacity: 0.95;
+    border-radius: var(--radius-lg);
+    z-index: 0;
+}
+
+.resource-card > * {
+    position: relative;
+    z-index: 1;
 }
 
 .resource-card:hover {
